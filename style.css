@@ -32,6 +32,16 @@
   height: 150px;
 }
 
+.header .right-side .notification {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.emoji {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 .content {
   display: flex;
   justify-content: center;
@@ -39,32 +49,41 @@
 }
 
 .alert1 {
-  width: 300px;
-  height: 50px;
+  width: 250px;
+  height: 80px;
   background-color: #cc615a;
   color: white;
   font-weight: 700;
+  text-align: center;
   margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  right: 10px;
+  bottom: 110px;
+  border-radius: 5px;
 }
 
 .alert2 {
-  width: 300px;
-  height: 50px;
+  width: 250px;
+  height: 80px;
   background-color: #77b776;
   color: white;
   font-weight: 700;
+  text-align: center;
   margin-bottom: 15px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 5px;
+}
+.sign1 {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
-.alerts {
+.sign2 {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
